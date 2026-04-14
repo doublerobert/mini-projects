@@ -1,1 +1,193 @@
-<html>welcome</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mini Web Projects</title>
+    <link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/images/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+      <div class="wrapper">
+        <nav class="header__nav">
+          <a href="/" class="header__home">
+            <span class="logo-wrap" aria-hidden="true">
+              <img
+                src="/assets/images/logo-accent.svg"
+                class="logo-svg logo-svg--accent"
+                width="36"
+                height="28"
+                alt=""
+              />
+              <img
+                src="/assets/images/logo.svg"
+                class="logo-svg logo-svg--main"
+                width="36"
+                height="28"
+                alt=""
+              />
+            </span>
+            <span>mini web projects</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ========== PROJECTS ========== -->
+      <section class="projects">
+        <div class="wrapper projects__wrapper">
+          <h2 class="projects__headline header-xl">Projects</h2>
+
+          <div class="projects__grid">
+
+            <!-- Basic Calculator -->
+            <div class="projects__item">
+              <div class="projects__picture projects__placeholder--calc">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="4" y="2" width="16" height="20" rx="2" />
+                  <line x1="8" y1="6" x2="16" y2="6" />
+                  <rect x="7" y="9.5" width="2" height="2" rx="0.3" />
+                  <rect x="11" y="9.5" width="2" height="2" rx="0.3" />
+                  <rect x="15" y="9.5" width="2" height="2" rx="0.3" />
+                  <rect x="7" y="13" width="2" height="2" rx="0.3" />
+                  <rect x="11" y="13" width="2" height="2" rx="0.3" />
+                  <rect x="15" y="13" width="2" height="2" rx="0.3" />
+                  <rect x="7" y="16.5" width="2" height="2" rx="0.3" />
+                  <rect x="11" y="16.5" width="6" height="2" rx="0.3" />
+                </svg>
+                <div class="projects__links">
+                  <a href="./basic-calculator/" class="btn-pill">View Project</a>
+                  <a href="https://github.com/doublerobert/mini-projects/tree/main/basic-calculator" target="_blank" rel="noopener" class="btn-pill">View Code</a>
+                </div>
+              </div>
+              <div class="projects__body">
+                <h3 class="projects__name">Basic Calculator</h3>
+                <p class="projects__tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Task Manager App -->
+            <div class="projects__item">
+              <div class="projects__picture projects__placeholder--task">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M9 11l3 3L22 4" />
+                  <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+                </svg>
+                <div class="projects__links">
+                  <a href="./task-manager-app/" class="btn-pill">View Project</a>
+                  <a href="https://github.com/doublerobert/mini-projects/tree/main/task-manager-app" target="_blank" rel="noopener" class="btn-pill">View Code</a>
+                </div>
+              </div>
+              <div class="projects__body">
+                <h3 class="projects__name">Task Manager App</h3>
+                <p class="projects__tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Weather App -->
+            <div class="projects__item">
+              <div class="projects__picture projects__placeholder--weather">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+                  <path d="M11.5 9.5a3 3 0 0 1 5.5 0" stroke-width="1" stroke-dasharray="2 1" />
+                </svg>
+                <div class="projects__links">
+                  <a href="./weather-app/" class="btn-pill">View Project</a>
+                  <a href="https://github.com/doublerobert/mini-projects/tree/main/weather-app" target="_blank" rel="noopener" class="btn-pill">View Code</a>
+                </div>
+              </div>
+              <div class="projects__body">
+                <h3 class="projects__name">Weather App</h3>
+                <p class="projects__tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+      <div class="wrapper">
+        <div class="footer__inner">
+          <p class="footer__copy">
+            &copy; <span id="year"></span> Robert Okon. All rights reserved.
+          </p>
+          <a href="#" class="footer__back-top" aria-label="Back to top">
+            Back to top
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <line x1="12" y1="19" x2="12" y2="5" />
+              <polyline points="5 12 12 5 19 12" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
