@@ -4,17 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator App</title>
+    <title>Todo List App</title>
   </head>
   <body>
-    <div id="app">
-      <div class="main-section">
-        <div class="screen"></div>
-        <div class="buttons">
-          <div>how to be a good developer</div>
-          <div></div>
-        </div>
-      </div>
+    <div class="form-container">
+      <ul class="task-list"></ul>
+      <form id="new-task-form">
+        <input type="text" id="new-task-title" placeholder="Title" />
+        <button type="submit">Add</button>
+      </form>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
